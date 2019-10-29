@@ -47,3 +47,29 @@ server.use((req, res, next) => {
 })
 ```
 nodemon server로 서버 실행하기
+
+# 라우팅
+
+```
+app.METHOD(PATH, HANDLER);
+```
+METHOD : HTTP요청메소드
+
+PATH : 라우트 경로
+
+HANDLER : (req가 들어오면)실행 될 콜백함수
+
+
+Route(Routing) : 특정 엔드포인트에 대한 클라이언트 요청이 들어왔을때 요청에 어플리케이션이 응답하는 방법을 결정
+
+### 엔드포인트 
+
+끝 + 점 / 어떠한 소프트웨어나 제품의 최종목적지인 사용자를 가리킴
+
+ex) PC, 노트북, 핸드폰 등 유저가 사용하는 devices
+
+ex) URI(또는 경로) 및 특정한 HTTP 요청 메소드(GET, POST 등)
+
+엔트리포인트 : 진입점
+
+### [콜백](https://dalkomit.tistory.com/65)

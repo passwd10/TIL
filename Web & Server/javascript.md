@@ -252,13 +252,13 @@ console.log(one, two, three); // 1 2 3
 - 객체 디스트럭처링은 객체의 각 프로퍼티를 객체로부터 추출하여 변수 리스트에 할당한다. 이때 할당 기준은 프로퍼티 이름(키)이다.
 ```
 // ES6 Destructuring
-const obj = { firstName: 'Ungmo', lastName: 'Lee' };
+const obj = { firstName: 'Inseo', lastName: 'Park' };
 
 // 프로퍼티 키를 기준으로 디스트럭처링 할당이 이루어진다. 순서는 의미가 없다.
 // 변수 lastName, firstName가 선언되고 obj(initializer(초기화자))가 Destructuring(비구조화, 파괴)되어 할당된다.
 const { lastName, firstName } = obj;
 
-console.log(firstName, lastName); // Ungmo Lee
+console.log(firstName, lastName); // Inseo Park
 ```
 - 객체 디스트럭처링을 위해서는 할당 연산자 왼쪽에 객체 형태의 변수 리스트가 필요하다.
 
