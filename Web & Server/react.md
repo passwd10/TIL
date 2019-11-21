@@ -38,7 +38,7 @@
 
 [관련글](https://overreacted.io/ko/how-are-function-components-different-from-classes/)
 
-함수형 컴포넌트는 render 될 때의 값들을 유지한다.
+클래스형 컴포넌트는 this를 사용한다. this는 변경이 가능하며 조작할 수 있는데 이는 불변값인 props에 영향을 주게 된다.
 
 ## React Context
 - context는 React 컴포넌트 트리 안에서 전역적(global)이라고 볼 수 있는 데이터를 공유할 수 있도록 고안된 방법입니다. 그러한 데이터로는 현재 로그인한 유저, 테마, 선호하는 언어 등이 있습니다.
